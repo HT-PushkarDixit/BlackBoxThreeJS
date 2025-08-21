@@ -1,4 +1,4 @@
-import '../src/globelScript.js';
+import '../globelScript';
 
 import * as THREE from 'three';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';

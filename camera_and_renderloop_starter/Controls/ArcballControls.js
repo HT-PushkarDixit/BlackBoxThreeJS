@@ -1,3 +1,5 @@
+import '../globelScript.js';
+
 import * as Three from 'three';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 

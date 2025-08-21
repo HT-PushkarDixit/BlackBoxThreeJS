@@ -1,4 +1,4 @@
-import '../src/globelScript.js';
+import '../globelScript.js';
 
 import * as Three from 'three';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';

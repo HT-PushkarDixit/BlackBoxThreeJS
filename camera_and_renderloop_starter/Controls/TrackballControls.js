@@ -1,4 +1,4 @@
-import '../src/globelScript.js';
+import '../globelScript.js';
 
 import * as Three from 'three';
 import { TrackballControls } from 'three/addons/controls/TrackballControls.js';
