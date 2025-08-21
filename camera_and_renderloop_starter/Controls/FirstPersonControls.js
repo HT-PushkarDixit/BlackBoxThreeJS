@@ -1,4 +1,6 @@
-import * as Three from 'three';
+import '../src/globelScript.js';
+
+import * as THREE from 'three';
 import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';
 
 

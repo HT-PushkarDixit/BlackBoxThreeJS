@@ -1,9 +1,15 @@
-function showToast(message, duration = 2000) {
+// globelScript.js
+export function showToast(message) {
   const toast = document.getElementById("toast");
-  toast.textContent = message;
-  toast.classList.add("show");
+  if (!toast) return;
 
+  toast.textContent = message;
+  toast.style.display = "block";
   setTimeout(() => {
-    toast.classList.remove("show");
-  }, duration);
+    toast.style.display = "none";
+  }, 2000);
 }
+
+window.addEventListener('resize', () => {
+  console.log("Resize handled globally");
+});

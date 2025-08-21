@@ -1,4 +1,6 @@
-import * as Three from 'three';
+import '../src/globelScript.js';
+
+import * as THREE from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
 
 showToast('Use Mouse ( left Down and move ) for rotate and mouse wheel for pan zoom/out the diagram')

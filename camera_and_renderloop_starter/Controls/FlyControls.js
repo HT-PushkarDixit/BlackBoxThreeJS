@@ -1,4 +1,6 @@
-import * as Three from 'three';
+import '../src/globelScript.js';
+
+import * as THREE from 'three';
 import { FlyControls } from 'three/addons/controls/FlyControls.js';
 
 
