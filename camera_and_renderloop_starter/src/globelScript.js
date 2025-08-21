@@ -6,7 +6,7 @@ export function showToast(message) {
   toast.classList.add("show");   // fade-in
   setTimeout(() => {
     toast.classList.remove("show"); // fade-out
-  }, 2000);
+  }, 5000);
 }
 
 window.addEventListener('resize', () => {
