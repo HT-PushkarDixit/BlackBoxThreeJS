@@ -1,4 +1,4 @@
-import '../globelScript.js';
+import { showToast } from '/src/globelScript.js';
 
 import * as Three from 'three';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';

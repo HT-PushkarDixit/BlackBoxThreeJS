@@ -1,4 +1,4 @@
-import '../globelScript.js';
+import { showToast } from '/src/globelScript.js';
 
 import * as Three from 'three';
 import { DragControls } from 'three/addons/controls/DragControls.js';

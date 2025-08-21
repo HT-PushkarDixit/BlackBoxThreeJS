@@ -1,5 +1,4 @@
-import '../globelScript.js';
-
+import { showToast } from '/src/globelScript.js';
 import * as Three from 'three';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 
