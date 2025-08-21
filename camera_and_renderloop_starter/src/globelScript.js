@@ -1,12 +1,11 @@
-// globelScript.js
 export function showToast(message) {
   const toast = document.getElementById("toast");
   if (!toast) return;
 
   toast.textContent = message;
-  toast.style.display = "block";
+  toast.classList.add("show");   // fade-in
   setTimeout(() => {
-    toast.style.display = "none";
+    toast.classList.remove("show"); // fade-out
   }, 2000);
 }
 

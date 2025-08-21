@@ -1,5 +1,5 @@
 import { showToast } from '/src/globelScript.js';
-
+import '/src/style.css'; 
 import * as Three from 'three';
  import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 

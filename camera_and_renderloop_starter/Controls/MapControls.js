@@ -1,5 +1,5 @@
 import { showToast } from '/src/globelScript.js';
-
+import '/src/style.css'; 
 import * as Three from 'three';
 import { MapControls } from 'three/addons/controls/MapControls.js';
 

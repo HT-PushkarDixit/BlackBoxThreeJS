@@ -1,6 +1,6 @@
 import { showToast } from '/src/globelScript.js';
-
-import * as Three from 'three';
+import '/src/style.css'; 
+import * as THREE from 'three';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 
 
