@@ -1,6 +1,6 @@
 import '../src/globelScript.js';
 
-import * as Three from 'three';dule" src="../Controls/
+import * as Three from 'three';
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 
 

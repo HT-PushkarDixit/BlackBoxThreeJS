@@ -1,6 +1,4 @@
-import '../src/globelScript.js';
-
-import * as Three from 'three';dule" src="../Controls/
+import * as Three from 'three';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 
 showToast('Use Mouse ( left Down and move ) for rotate the diagram')

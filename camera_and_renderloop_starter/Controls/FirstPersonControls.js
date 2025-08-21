@@ -1,6 +1,6 @@
-import '../src/globelScript.js';
+import '../globelScript.js';
 
-import * as Three from 'three';dule" src="../Controls/
+import * as Three from 'three';
 import { FirstPersonControls } from 'three/addons/controls/FirstPersonControls.js';
 
 

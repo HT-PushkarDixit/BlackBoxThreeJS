@@ -1,6 +1,6 @@
-import '../src/globelScript.js';
+import '../globelScript.js';
 
-import * as Three from 'three';dule" src="../Controls/
+import * as Three from 'three';
 import { DragControls } from 'three/addons/controls/DragControls.js';
 
 showToast('Use Mouse ( left Down and move ) for Move the diagram')
